@@ -9,8 +9,8 @@ function App() {
     <div className="App">
         <Header />
         <Routes>
-          <Route path='react-pet-projects/' element={<Home />} />
-          <Route path='react-pet-projects/todo' element={<TodoWrapper />} />
+          <Route path='/' element={<Home />} />
+          <Route path='todo' element={<TodoWrapper />} />
         </Routes>
         
     </div>
