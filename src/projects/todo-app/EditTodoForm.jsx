@@ -15,7 +15,7 @@ function EditTodoForm({editTodo, task}) {
     return (
       <form className="todo-form" onSubmit={handleSubmit}>
           <input type="text" className="todo-input" value={inputValue} placeholder="Update task" onChange={(e) => setInputValue(e.target.value)} />
-          <button type="submit" className="todo-btn">
+          <button type="submit" className="btn todo-btn">
             Edit task
           </button>
       </form>

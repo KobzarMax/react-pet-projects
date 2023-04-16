@@ -44,7 +44,7 @@ function TodoWrapper() {
 
     return (
       <div className="todo-wrapper">
-          <h1>Todos will be here</h1>
+          <h1>Whats new for today?</h1>
           <div className="todo-form-wrapper">
           <TodoForm addTodo={addTodo} />
             {todos.map((todo, index) => (
