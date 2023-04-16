@@ -7,10 +7,10 @@ function Header() {
             <h1>My personal React header</h1>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='react-pet-projects/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='todo'>Todo APP</Link>
+                    <Link to='react-pet-projects/todo'>Todo APP</Link>
                 </li>
             </ul>
         </header>
