@@ -1,8 +1,8 @@
-import TodoForm from "./TodoForm"
+import TodoForm from "../projects/todo-app/TodoForm"
 import { useState, useEffect } from "react"
 import { v4 as uuidv4 } from 'uuid';
-import Todo from "./Todo";
-import EditTodoForm from "./EditTodoForm";
+import Todo from "../projects/todo-app/Todo";
+import EditTodoForm from "../projects/todo-app/EditTodoForm";
 uuidv4();
 
 function TodoWrapper() {

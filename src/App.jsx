@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import TodoWrapper from './components/TodoWrapper';
+import TodoWrapper from './view/TodoWrapper';
 import Home from './view/Home';
 function App() {
 
